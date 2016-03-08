@@ -1,5 +1,7 @@
 package com.algaworks.comercial.model;
 
+import java.util.Date;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -38,5 +40,5 @@ public class Orcamento {
 	
 	@Temporal(TemporalType.DATE)
 	@Column(name="data_validade")
-	private String dataValidade;
+	private Date dataValidade;
 }
